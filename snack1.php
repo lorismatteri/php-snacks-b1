@@ -38,7 +38,7 @@ Olimpia Milano - Cantù | 55 - 60 -->
 
     /* var_dump($matches); */
     for ($i=0; $i < count($matches); $i++) { 
-        echo $matches[$i]["Team1"] . " " . "-" . " " . $matches[$i]["Team2"] . " " . "|" . " " . $matches[$i]["Pt1"] . " " . "-" . " " . $matches[$i]["Pt2"] . " /// ";
+        echo $matches[$i]["Team1"] . " " . "-" . " " . $matches[$i]["Team2"] . " " . "|" . " " . $matches[$i]["Pt1"] . " " . "-" . " " . $matches[$i]["Pt2"] . "<br>";
     }
 ?>
 
